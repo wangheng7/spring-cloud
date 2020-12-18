@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../Ultra-IGA-SynSubAccount/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Audit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Authentication/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Authorization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Bean/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Casp_Client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Casp_Client/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Core/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Flow/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_JK_Server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Operate_Log_Starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Policy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Registration/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_SSO/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Sleuth/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_SysConfig/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_User/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Ultra_IGA_Web/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../ultra-iga-res/src/main/java" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ultra-iga-web" />
+        <module name="ultra-iga-admin" />
+        <module name="ultra-iga-appressubaccsyn" />
+        <module name="ultra-iga-policy" />
+        <module name="Ultra_IGA_Configuration" />
+        <module name="ultra-iga-audit" />
+        <module name="ultra-iga-job" />
+        <module name="ultra-iga-api" />
+        <module name="ultra-iga-synsubaccount" />
+        <module name="ultra-iga-sleuth" />
+        <module name="ultra_iga_casp_agent" />
+        <module name="ultra-iga-core" />
+        <module name="ultra-iga-bean" />
+        <module name="ultra-iga-jk-server" />
+        <module name="ultra-iga-sysconfig" />
+        <module name="ultra-iga-flow" />
+        <module name="ultra-iga-registration" />
+        <module name="ultra-iga-user" />
+        <module name="ultra-iga-operate-log-starter" />
+        <module name="ultra-iga-sso" />
+        <module name="ultra-iga-resource" />
+        <module name="ultra-iga-authentication" />
+        <module name="ultra-iga-authorization" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="ultra-iga-admin" target="1.8" />
+      <module name="ultra-iga-api" target="1.8" />
+      <module name="ultra-iga-appressubaccsyn" target="1.8" />
+      <module name="ultra-iga-audit" target="1.8" />
+      <module name="ultra-iga-authentication" target="1.8" />
+      <module name="ultra-iga-authorization" target="1.8" />
+      <module name="ultra-iga-bean" target="1.8" />
+      <module name="ultra-iga-core" target="1.8" />
+      <module name="ultra-iga-flow" target="1.8" />
+      <module name="ultra-iga-jk-server" target="1.8" />
+      <module name="ultra-iga-job" target="1.8" />
+      <module name="ultra-iga-operate-log-starter" target="1.8" />
+      <module name="ultra-iga-parent" target="1.8" />
+      <module name="ultra-iga-policy" target="1.8" />
+      <module name="ultra-iga-registration" target="1.8" />
+      <module name="ultra-iga-resource" target="1.8" />
+      <module name="ultra-iga-sleuth" target="1.8" />
+      <module name="ultra-iga-sso" target="1.8" />
+      <module name="ultra-iga-synsubaccount" target="1.8" />
+      <module name="ultra-iga-sysconfig" target="1.8" />
+      <module name="ultra-iga-user" target="1.8" />
+      <module name="ultra-iga-web" target="1.8" />
+      <module name="ultra_iga_casp_agent" target="1.8" />
+      <module name="Ultra_IGA_Configuration" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="PREFER_TARGET_JDK_COMPILER" value="false" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ultra-iga-synsubaccount" options="" />
+      <module name="ultra_iga_casp_agent" options="-extdirs D:\V5Space\Ultra_IGA_Casp_Client/lib" />
+    </option>
+  </component>
+</project>

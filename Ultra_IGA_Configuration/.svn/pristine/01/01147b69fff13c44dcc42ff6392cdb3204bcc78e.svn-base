@@ -1,0 +1,88 @@
+zipkin:
+  collector:
+    kafka:
+#      topic: sleuth
+#      groupId: sleuth
+      zookeeper: 10.5.187.2:2181,10.5.187.10:2181,10.5.187.20:2181/kafka-zkroot-xa
+spring:
+#  zipkin:
+#    kafka:
+#      topic: sleuth
+#  cloud:  ############老版本Event.jar配置################################
+#    stream:
+#      kafka:
+#        binder:
+#          brokers:
+#            - 10.5.187.45:9093,10.5.187.46:9093,10.5.187.47:9093,10.5.187.48:9093,10.5.187.49:9093,10.5.187.50:9093
+#          zk-nodes:
+#            - 10.5.187.2:2181,10.5.187.10:2181,10.5.187.20:2181/kafka-zkroot-xa
+#          offset-update-time-window: 10000
+#          required-acks: 1
+#          min-partition-count: 1
+#          replication-factor: 1
+#        bindings:
+#          input:
+#            consumer:
+#              autoCommitOffset: true
+#              startOffset: earliest
+#              headerMode: raw
+#          output:
+#            producer:
+#              maxRequestSize: 2097152
+#              bufferSize: 16384
+#              sync: true
+#              batchTimeout: 0
+  kafka:  #####################新版本Event.1.1.jar配置##################################################
+    bootstrap-servers: 10.5.187.45:9093,10.5.187.46:9093,10.5.187.47:9093,10.5.187.48:9093,10.5.187.49:9093,10.5.187.50:9093
+    producer:
+      batch.size: 4096
+      retries: 0
+      linger: 1
+      buffer.memory: 40960
+      key.serializer: org.apache.kafka.common.serialization.StringDeserializer
+      value.serializer: org.apache.kafka.common.serialization.StringDeserializer
+    consumer:
+      enable.auto.commit: true  #(是否自动提交)
+      session.timeout: 20000  #(连接超时时间)
+      auto.offset.reset: latest #从最近的地方开始消费 (实时生产，实时消费，不会从头开始消费)
+      group-id: ${spring.application.name}  #消费者组
+      auto.commit.interval: 100
+      concurrency: 1 #(设置消费线程数)
+    eventTopics: #定义事件对应消费主题
+      ADSynUserJobEvent: AD_SYN_NOTIFY
+      AccessLogEvent: ACCESS_LOG
+      AccessSecStackLogEvent: ACCESS_SECSTACK_LOG
+      AuthSessionEvent: OAUTH
+      AuthnRequestEvent: AUTHN_REQ
+      ClientDelNotifyEvent: CLIENT_DEL
+      ClientModifyNotifyEvent: CLIENT_MODIFY
+      DefaultSSOLoginInfoModifyEvent: DEFAULTSSOLOGIN_MODIFY
+      FlowApprovedNotifyEvent: FLOW_APPROVED
+      ForeignMessageEvent: FOREIGN_MESSAGE
+      OperAuthzApprovedNotifyEvent: OPER_AUTHZ_APPROVED_FLOW
+      OrgGroupNotifyEvent: ORGGROUP_DEL
+      ResAccAuthzAddEvent: RESACCAUTHZ_ADD
+      ResAccOperAuthzEvent: AUTHZ_RESACC
+      ResAccPwdSynModifyJobEvent: RESACC_PWDSYN_JOB_NOTIFY
+      ResAccSynDelJobEvent: RESACC_SYNDEL_JOB_NOTIF
+      ResAccSynJobEvent: RESACC_SYN_JOB_NOTIFY
+      ResAccountDelNotifyEvent: RESACC_DEL
+      ResAccountModifyNotifyEvent: RESACC_MODIFY
+      ResAccountModifyPwdNotifyEvent: RESACC_MODIFY_PWD
+      ResAuthzAddEvent: RESAUTHZ_ADD
+      ResGroupDelNotifyEvent: RESGROUP_DEL
+      ResOrganizationSynJobEvent: RES_SYNORG_JOB_NOTIFY
+      ResPermSynJobEvent: RES_SYNPERM_JOB_NOTIFY
+      ResRoleAuthzDelEvent: RESROLE_DEL
+      ResRoleSynJobEvent: RES_SYNROLE_JOB_NOTIFY
+      ResSynJobEvent: RES_SYN_JOB_NOTIFY
+      ResourceDelNotifyEvent: RESOURCE_DEL
+      ResourceModifyNotifyEvent: RESOURCE_MODIFY
+      SmpResSynJobEvent: SMPRES_SYN_JOB_NOTIFY
+      UserDelNotifyEvent: USER_DEL
+      UserGroupDelNotifyEvent: USERGROUP_DEL
+      UserModifyNotifyEvent: USER_MODIFY
+      UserDelayApplyAskEvent: USER_DELAY_APPLY_FLOW
+      SyncCenterResSynJobEvent: SYNC_RESACC_JOB_NOTIFY
+
+

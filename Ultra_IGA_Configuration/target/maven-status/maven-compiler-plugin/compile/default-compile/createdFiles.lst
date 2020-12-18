@@ -1,0 +1,11 @@
+com\ultrapower\framework\configuration\ConfigurationApplication.class
+com\ultrapower\framework\configuration\service\IConfigPropService.class
+com\ultrapower\framework\configuration\service\impl\GitConfigPropServiceImpl.class
+com\ultrapower\framework\configuration\service\impl\NativeConfigPropServiceImpl.class
+com\ultrapower\framework\configuration\rest\ConfigPropRest.class
+com\ultrapower\framework\configuration\util\TransferUtils.class
+com\ultrapower\framework\configuration\util\YamlUtils.class
+com\ultrapower\framework\configuration\service\impl\SVNConfigPropServiceImpl.class
+com\ultrapower\framework\configuration\config\InitDataSourceConfiguration.class
+com\ultrapower\framework\configuration\message\ConfigPropReq.class
+com\ultrapower\framework\configuration\service\impl\DBConfigPropServiceImpl.class

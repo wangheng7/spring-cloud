@@ -1,0 +1,8 @@
+sms:
+  server:
+    url: http://192.168.187.161:8080/CmppRestServer/api/cmpp/sendMessage
+    resNum: ultrapower #约定的访问资源编号
+    clientIp: 192.168.186.121 #约定的访问IP地址
+    serverIp: 192.168.10.81
+    port: 1234
+    restServer: true

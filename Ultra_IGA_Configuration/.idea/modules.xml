@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Ultra_IGA_Configuration.iml" filepath="$PROJECT_DIR$/Ultra_IGA_Configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Admin/ultra-iga-admin.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Admin/ultra-iga-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_API/ultra-iga-api.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_API/ultra-iga-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/ultra-iga-appressubaccsyn.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/ultra-iga-appressubaccsyn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Audit/ultra-iga-audit.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Audit/ultra-iga-audit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Authentication/ultra-iga-authentication.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Authentication/ultra-iga-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Authorization/ultra-iga-authorization.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Authorization/ultra-iga-authorization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Bean/ultra-iga-bean.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Bean/ultra-iga-bean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Core/ultra-iga-core.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Core/ultra-iga-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Flow/ultra-iga-flow.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Flow/ultra-iga-flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_JK_Server/ultra-iga-jk-server.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_JK_Server/ultra-iga-jk-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Job/ultra-iga-job.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Job/ultra-iga-job.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Operate_Log_Starter/ultra-iga-operate-log-starter.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Operate_Log_Starter/ultra-iga-operate-log-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/ultra-iga-parent.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/ultra-iga-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Policy/ultra-iga-policy.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Policy/ultra-iga-policy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Registration/ultra-iga-registration.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Registration/ultra-iga-registration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ultra-iga-res/ultra-iga-resource.iml" filepath="$PROJECT_DIR$/../ultra-iga-res/ultra-iga-resource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Sleuth/ultra-iga-sleuth.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Sleuth/ultra-iga-sleuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_SSO/ultra-iga-sso.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_SSO/ultra-iga-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra-IGA-SynSubAccount/ultra-iga-synsubaccount.iml" filepath="$PROJECT_DIR$/../Ultra-IGA-SynSubAccount/ultra-iga-synsubaccount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_SysConfig/ultra-iga-sysconfig.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_SysConfig/ultra-iga-sysconfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_User/ultra-iga-user.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_User/ultra-iga-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Web/ultra-iga-web.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Web/ultra-iga-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Casp_Client/ultra_iga_casp_agent.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Casp_Client/ultra_iga_casp_agent.iml" />
+    </modules>
+  </component>
+</project>

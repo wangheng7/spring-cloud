@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../hystrix/aservice/api.iml" filepath="$PROJECT_DIR$/../hystrix/aservice/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hystrix/aservice/aservice.iml" filepath="$PROJECT_DIR$/../hystrix/aservice/aservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../config-server/config.iml" filepath="$PROJECT_DIR$/../config-server/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../config-client/config (1).iml" filepath="$PROJECT_DIR$/../config-client/config (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eurekaconsume/consumer.iml" filepath="$PROJECT_DIR$/../eurekaconsume/consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springaop/demo1/demo1.iml" filepath="$PROJECT_DIR$/../springaop/demo1/demo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eurekaclient/eurekaclient.iml" filepath="$PROJECT_DIR$/../eurekaclient/eurekaclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../eurekaprovide/eurekaprovide.iml" filepath="$PROJECT_DIR$/../eurekaprovide/eurekaprovide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hystrix-a/hystrix.iml" filepath="$PROJECT_DIR$/../hystrix-a/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hystrix/hystrix.iml" filepath="$PROJECT_DIR$/../hystrix/hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hystrix-b/hystrix (1).iml" filepath="$PROJECT_DIR$/../hystrix-b/hystrix (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hystrix-c/hystrix (2).iml" filepath="$PROJECT_DIR$/../hystrix-c/hystrix (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hystrix-master/hystrix (3).iml" filepath="$PROJECT_DIR$/../hystrix-master/hystrix (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/../openstack4j/openstack4j.iml" filepath="$PROJECT_DIR$/../openstack4j/openstack4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ribbon/ribbon.iml" filepath="$PROJECT_DIR$/../ribbon/ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springaop/springaop.iml" filepath="$PROJECT_DIR$/../springaop/springaop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springcloud1/springcloud1.iml" filepath="$PROJECT_DIR$/../springcloud1/springcloud1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springboot1/test.iml" filepath="$PROJECT_DIR$/../springboot1/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test1/test1.iml" filepath="$PROJECT_DIR$/../test1/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../threadTest/thread.iml" filepath="$PROJECT_DIR$/../threadTest/thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Ultra_IGA_Configuration/ultra-iga-configuration.iml" filepath="$PROJECT_DIR$/../Ultra_IGA_Configuration/ultra-iga-configuration.iml" />
+    </modules>
+  </component>
+</project>

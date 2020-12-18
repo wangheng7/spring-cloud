@@ -1,0 +1,11 @@
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\message\ConfigPropReq.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\service\impl\NativeConfigPropServiceImpl.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\config\InitDataSourceConfiguration.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\service\impl\SVNConfigPropServiceImpl.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\ConfigurationApplication.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\service\impl\GitConfigPropServiceImpl.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\service\IConfigPropService.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\service\impl\DBConfigPropServiceImpl.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\rest\ConfigPropRest.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\util\YamlUtils.java
+D:\V5Space\Ultra_IGA_Configuration\src\main\java\com\ultrapower\framework\configuration\util\TransferUtils.java

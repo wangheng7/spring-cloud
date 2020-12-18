@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../eurekaclient/pom.xml" />
+        <option value="$PROJECT_DIR$/../ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/../springboot1/pom.xml" />
+        <option value="$PROJECT_DIR$/../springcloud1/pom.xml" />
+        <option value="$PROJECT_DIR$/../threadTest/pom.xml" />
+        <option value="$PROJECT_DIR$/../test1/pom.xml" />
+        <option value="$PROJECT_DIR$/../eurekaprovide/pom.xml" />
+        <option value="$PROJECT_DIR$/../eurekaconsume/pom.xml" />
+        <option value="$PROJECT_DIR$/../hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/../hystrix-a/pom.xml" />
+        <option value="$PROJECT_DIR$/../hystrix-b/pom.xml" />
+        <option value="$PROJECT_DIR$/../hystrix-c/pom.xml" />
+        <option value="$PROJECT_DIR$/../hystrix-master/pom.xml" />
+        <option value="$PROJECT_DIR$/../config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/../config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Configuration/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/eurekaclient2/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+</project>

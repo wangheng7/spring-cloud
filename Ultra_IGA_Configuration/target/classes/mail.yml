@@ -1,0 +1,14 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: 18610639395@163.com
+    password: '{cipher}AQAZT6/fVVW0O1YjfkR0M85Gyy/6MT8xrnkOuXsOTXPDMqbHH6mpD3lqPZZyyAckIIpq3TTBY+EWZ5seip/CDFmqqhaSklyjz2sqhUMnbh+RjxiejiOkN3nP4Ipt9HQbyNsw6tu1Jb+4S+pdawLlecJikab8ZpMYcb+Jc1nPr9lDyiEtUsfLZq89Sn6Az4AnabkLnmHqLCDJ5YFHAqugpwpdSZbrTJI5XCbuqLeFpiYysVzxjHiI6bbNYkUoD7n/cpk9Elrw4dkY2d/OPFU2Fmr1kJ2DlW3tTBHcDwLMA8p9hSKDQL5EOiO/+DHn5L4uTffZ+Kb1+MCwP3M9RpNkfRrFADOpx8mYoZ3Pm9Ga5fQ9ZxWiEfsFKXR66on3v6JbxeyPV5HwqbB3sjL2sdI4vg+B8MQCT9c9j1v75T9OC3I3l4KtWQJHgIr7/BJP4P5HjCor8yJTpJjlHrACXct9w2c/wpFJSJ+I4WcQwiZZ87vUEsI088v9IlG8+H8QwxO4PuK6E6YjLG+1SMVo1x9iVA3SfpSlBDzGtzbj7O/KCPCescpRQG8XGvpvvdvr/JYk8viNKzzRoO0xE0P/Cv6cpxvaIVR7+sQdkTyYWBqHNE+CmjNgbh/5NBWdqmYmfDLampWq6AYC+p595WXXmPmhn6o9EwnnNuHcyvllVVth8pTUkc4AMhDXAOPIdzGsIDGlUHlCW7lik2fQpnlrWZKugZY/HZH3Px6lkH5MHIgzyWSABf3hIY6rHpBdbnQNkb6OPPPDRdwYnjXGoujZjLhBoZ4p5NMr0wT+OAKzl9SHZk0fBUquesbukFY9ADCex3pig4UimwJ9/eTGZAoY7/XQhH/06VZhXe9SwQLDU70XxHiUiAyVL9wm1aPFIN7rGCqPRKU='
+    default-encoding: UTF-8
+    sendFrom: 18610639395@163.com
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true

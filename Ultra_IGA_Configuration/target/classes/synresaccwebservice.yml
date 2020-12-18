@@ -1,0 +1,6 @@
+default:
+  synresaccount:
+    auth:
+      account: gdbmadmin
+      password : dhrXIgvsrxf8oWweAzmAAA==
+      tenant: 0b34bc3a9d6d436c874beca39d1cfe36

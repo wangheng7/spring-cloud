@@ -1,0 +1,7 @@
+spring:
+  zipkin:
+    base-url: http://192.168.187.161:33000/
+  #配置输出spans的百分比(默认10%) 这里设置100%
+  sleuth:
+    sampler:
+      percentage: 1

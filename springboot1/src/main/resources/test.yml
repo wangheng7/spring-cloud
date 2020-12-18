@@ -1,0 +1,4 @@
+test1:
+    name:wang
+    age:30
+    uuid:${random.uuid}

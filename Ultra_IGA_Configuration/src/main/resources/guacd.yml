@@ -1,0 +1,10 @@
+guacdconfig:
+  server:
+    - tenant: addfc54ea6b24609aef0ef7b1b7557a8
+      serverip: 192.168.1.186
+      serverport: 4822
+      sftppath: /root
+    - tenant: 6001bd584e1147e79fdeb9f03e803534
+      serverip: 192.168.187.198
+      serverport: 4822
+      sftppath: /root

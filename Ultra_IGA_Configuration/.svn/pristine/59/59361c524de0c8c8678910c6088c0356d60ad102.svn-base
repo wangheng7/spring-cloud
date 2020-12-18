@@ -1,0 +1,1 @@
+keytool -genkeypair -alias iam-server -keyalg RSA -dname "CN=Web Server,OU=ultrapower,O=Ultrapower,L=Beijing,S=Beijing,C=CN" -keypass ultrapower -keystore server.jks -storepass iamstore

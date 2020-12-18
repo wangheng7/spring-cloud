@@ -1,0 +1,15 @@
+spring:
+  zipkin:
+    enabled: true
+    sender:
+      type: kafka
+    #设置服务名，不设置默认使用spring.application.name
+#    service:
+#      name: XXX
+  kafka:
+    topic: sleuth #kafka主题，不配置时默认使用zipkin
+#    bootstrap-servers: 192.168.187.182:9092
+  sleuth:
+    sampler:
+      #应采样的请求的概率。 例如。 应该对1.0  -  100％的请求进行抽样。 精度仅为整数（即不支持0.1％的迹线）。
+      probability: 1.0

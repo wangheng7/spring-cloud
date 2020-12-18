@@ -1,0 +1,3 @@
+smsmessage:
+  agree: userId您好!您申请的租户tenantName已审批通过！
+  disagree: userId您好!您的申请已被拒绝！拒绝原因：approveInfo

@@ -1,0 +1,67 @@
+usergroup:
+  rootName: 主帐号组
+  defaultName: 默认组
+organization:
+  rootName: 组织机构
+  defaultName: 默认组织机构
+user:
+  logicDelete: true
+  # 南基需求增加主帐号推送VPN开关 true为开启 false为关闭 默认为false
+  isVPN: false
+
+tenant:
+  logicDelete: true
+
+usercenter:
+  pwdPolicyId: 0105797bd21f45af884f77b2f0732a78
+  authModePolicyId: 004092bcc0584466abe1e0641bb26dd3
+  defaultErpId: 01010101
+  workOrderNum: QWER1234
+  approverId: d9073918746c418c9b76ebffd52588ef
+  # 航信云化4a和航信用户中心同步的配置
+  userCenterAuthnURL: http://192.168.187.205:9090/api/authn/v1/pwd
+  userCenterQueryUserURL: http://192.168.187.205:9090/api/usercenter/v1/queryuser
+  userCenterSynUserURL: http://192.168.187.205:9090/api/usercenter/v1/synuser
+  userCenterQueryOrgURL: http://192.168.187.205:9090/api/usercenter/v1/queryorg
+  userCenterSynOrgURL: http://192.168.187.205:9090/api/usercenter/v1/synorg
+  account: usercenter
+  clientType: app
+  resNum: cloud4a
+  passWord: admin123!@#
+  secretKey: ultra_4a
+  encryption: DES_CBC_PK5
+
+#CRM
+  appId: 505121
+  appkey: 1d19cb83b5312c97f7fd059569d6355b
+  rsaPublicKey: MGcwDQYJKoZIhvcNAQEBBQADVgAwUwJMAKQfbEh0V0rqZxMS/eLbxsjcBkxotpwl90u9u9T+M7koDF0h+am8bbzmYU9rVTIAcAO8n1lXfg8RD+73FsNqSeCbKjoaqHrXeI3RdwIDAQAB
+  tradeStaffId: AGTA5279
+  tradeDepartPassWd: Yd48805!
+  tradeDepartId: 49688
+  tradeCityCode: A0AW
+  tradeEparchyCode: "0872"
+  channelTypeId: 3
+  tradeDepartName: 1
+  tradeStaffName: 1
+#广州业知2.0同步数据到5.0中使用 uds是umm同步任务使用  gd oa同步密码使用
+gd:
+  pwdAuth:
+    switch: 1
+  pwdreset:
+    pwdSynSwitch: 1
+    serverUrl: http://sfsfd
+    appKey: IAM000
+    appSecret: sss
+  sso:
+    dbresmode: 1
+
+uds:
+  job:
+    tenant: a9c97c3f01a04f549a14a34c9374e4b5
+    userlogid: 4345581
+    usergrouplogid: 1486600
+    defaultgroup: 86c12f62fef6441ba744249106f60650
+    yzcode: 100010-100544-
+
+#锁定用户
+usernewpwd_sms_message: 【新4A系统】，您的新密码是{0}！

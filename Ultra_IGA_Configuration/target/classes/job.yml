@@ -1,0 +1,15 @@
+# 任务订阅短信模板
+subscribe:
+  enable: false   #订阅功能为广东定制功能，true:启用; false:不启用
+  accPwdExpired: userId，您好：4A系统检测到您所管理的【resName】资源下的【acc】从帐号的密码已经过期，请您联系业务管理员修改从帐号密码。
+  accToExpire: userId，您好：4A系统检测到您所管理的【resName】资源下的【acc】帐号即将失效，请您联系业务管理员进行延期。
+  userPwdToExpire: userId，您好：4A系统检测到您的帐号【userId】的密码即将在 day 天后过期，请您及时登录4A平台修改密码。
+  userPwdExpired: userId，您好：4A系统检测到您的帐号【userId】的密码已经过期，请您联系4A平台管理员对您的账号进行延期。
+  userToExpire: userId，您好：4A系统检测到您的帐号【userId】即将在 day 天后失效，请您联系4A平台管理员对您的账号进行延期。
+  userLoginNotice: userId，您好：您的帐号在 time 登录了4A，登录终端IP：clientip，若非本人登陆，请及时修改密码。
+  # 此时间根据quartz时间表达式而定
+  accPwdExpiredStartTime: 0 0 0 * * ?
+  accToExpireStartTime: 0 0 0 * * ?
+  userPwdToExpireStartTime: 0 0 0 * * ?
+  userPwdExpiredStartTime: 0 0 0 * * ?
+  userToExpireStartTime: 0 0 0 * * ?

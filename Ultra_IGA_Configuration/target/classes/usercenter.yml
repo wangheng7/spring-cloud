@@ -1,0 +1,42 @@
+usergroup:
+  rootName: 主帐号组
+  defaultName: 默认组
+organization:
+  rootName: 组织机构
+  defaultName: 默认组织机构
+resgroup:
+  rootName: 资源组
+  defaultName: 默认资源组
+user:
+  logicDelete: true
+  password:
+    secretKey: 7c4a8d09ca3762af61e59520943dc26494f8941b
+    encryption: SHA256_SALT
+tenant:
+  logicDelete: true
+resource:
+  logicDelete: true
+#认证信息有效期,单位为分
+authn_validity: 5
+superUser:
+  id: sysadmin
+  pwd: 5248ec897dd5745801530f805868c1f109b45d287a983c1d8486c2b54af65afd
+session:
+  #会话存储方案 cache:redis缓存 parser:token串解析
+  parserMode: cache
+  create:
+    #会话过期时间(单位:日)
+    expirationTime: 1
+    #会话失效时间(单位:分钟)
+    invalidTime: 30
+#传输层加密
+transmission:
+  password:
+     secretKey: ultra_4a
+     encryption: DES_CBC_PK5
+#票据登录
+ticket:
+  analysisTicketUrl: http://10.251.236.129:9090/api/ticket/v1/analysis
+  appCode: usercenter
+  tenant: a9c97c3f01a04f549a14a34c9374e4b5
+  tenantId: 6c2365e7c2844c869278d936ce2aa5f1

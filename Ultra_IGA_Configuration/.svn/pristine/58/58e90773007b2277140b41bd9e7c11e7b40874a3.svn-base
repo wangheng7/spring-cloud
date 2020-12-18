@@ -1,0 +1,11 @@
+#清空连接缓存任务执行周期
+clearSession_jobExpression: 0 0 * * * ?
+#session超时时间,单位分
+session_expire: 5
+
+#设置往AD域控上推送主帐号是否取自用户的过期时间开关，默认是否； 0：是，1：否  add by wd 2019-07-12
+is_ad_syn_user_expire: 1
+
+shell_manage_ftp_port: 22
+shell_manage_ftp_timeout: 3000
+shell_manage_ftp_dir: /opt/app/shellmanage

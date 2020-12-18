@@ -1,0 +1,49 @@
+spring:
+  application:
+    name: Configuration
+  profiles:
+    active: native #subversion native jdbc
+  cloud:
+    config:
+      enabled: true
+      server:
+        native:
+          search-locations: classpath:/   # 配置文件所在目录
+        #defaultLabel: oracle
+
+        #svn:
+          #username: '{cipher}AQCYUGGDqx7129QU/T502HuyeR5QrOciDMAWhunQ7wCTgEQ+OYwcYI/rGqiPshTC91YTXA2PkBFsfiM7AFXi0QZmJO/ipAFL7u75qlDBA4yYPcBL87dLXUptjtYufkXCUou8CSqNoNQu3DvpYP3KVNBb2KBQrVUS3BP9DUVepfoXGnzT5GqJAtGfPHFDv5cGIV5dMp7yYxpizg4u4eoXN4kSIagzZMU5jGevkmOWGvG6DL0BFK1jcCGYtM98k8Ph1Rd/lMzXZnUS/efcU34sR/NAG/2bc4vG722rkPRNVcUWl8RHbHbfDXAeIEla/F384SOie8q/XPfKGGjA918zaYuU6lyUvO0WqHGmfWgFgaJDGjayQLRA8IEgnKVQ5yCGXHY='
+         # password: '{cipher}AQCYUGGDqx7129QU/T502HuyeR5QrOciDMAWhunQ7wCTgEQ+OYwcYI/rGqiPshTC91YTXA2PkBFsfiM7AFXi0QZmJO/ipAFL7u75qlDBA4yYPcBL87dLXUptjtYufkXCUou8CSqNoNQu3DvpYP3KVNBb2KBQrVUS3BP9DUVepfoXGnzT5GqJAtGfPHFDv5cGIV5dMp7yYxpizg4u4eoXN4kSIagzZMU5jGevkmOWGvG6DL0BFK1jcCGYtM98k8Ph1Rd/lMzXZnUS/efcU34sR/NAG/2bc4vG722rkPRNVcUWl8RHbHbfDXAeIEla/F384SOie8q/XPfKGGjA918zaYuU6lyUvO0WqHGmfWgFgaJDGjayQLRA8IEgnKVQ5yCGXHY='
+         # uri: https://60.247.77.162/ams/AMS5.0/config
+    #  profiles:
+    #    active: jdbc
+    #  cloud:
+    #    config:
+    #      enabled: true
+    #      server:
+    #        jdbc:
+    #          sql: SELECT U_KEY,U_VALUE FROM U_PROPERTIES WHERE APPLICATION=? AND U_PROFILE=? AND LABEL=?
+    #  datasource:
+    #######以下是oracle的连接
+    #    url: jdbc:oracle:thin:@//127.0.0.1:1521/orcl
+    #    username: '{cipher}AQAZT6/fVVW0O1YjfkR0M85Gyy/6MT8xrnkOuXsOTXPDMqbHH6mpD3lqPZZyyAckIIpq3TTBY+EWZ5seip/CDFmqqhaSklyjz2sqhUMnbh+RjxiejiOkN3nP4Ipt9HQbyNsw6tu1Jb+4S+pdawLlecJikab8ZpMYcb+Jc1nPr9lDyiEtUsfLZq89Sn6Az4AnabkLnmHqLCDJ5YFHAqugpwpdSZbrTJI5XCbuqLeFpiYysVzxjHiI6bbNYkUoD7n/cpk9Elrw4dkY2d/OPFU2Fmr1kJ2DlW3tTBHcDwLMA8p9hSKDQL5EOiO/+DHn5L4uTffZ+Kb1+MCwP3M9RpNkfRrFADOpx8mYoZ3Pm9Ga5fQ9ZxWiEfsFKXR66on3v6JbxeyPV5HwqbB3sjL2sdI4vg+B8MQCT9c9j1v75T9OC3I3l4KtWQJHgIr7/BJP4P5HjCor8yJTpJjlHrACXct9w2c/wpFJSJ+I4WcQwiZZ87vUEsI088v9IlG8+H8QwxO4PuK6E6YjLG+1SMVo1x9iVA3SfpSlBDzGtzbj7O/KCPCescpRQG8XGvpvvdvr/JYk8viNKzzRoO0xE0P/Cv6cpxvaIVR7+sQdkTyYWBqHNE+CmjNgbh/5NBWdqmYmfDLampWq6AYC+p595WXXmPmhn6o9EwnnNuHcyvllVVth8pTUkc4AMhDXAOPIdzGsIDGlUHlCW7lik2fQpnlrWZKugZY/HZH3Px6lkH5MHIgzyWSABf3hIY6rHpBdbnQNkb6OPPPDRdwYnjXGoujZjLhBoZ4p5NMr0wT+OAKzl9SHZk0fBUquesbukFY9ADCex3pig4UimwJ9/eTGZAoY7/XQhH/06VZhXe9SwQLDU70XxHiUiAyVL9wm1aPFIN7rGCqPRKU='
+    #    password: '{cipher}AQAZT6/fVVW0O1YjfkR0M85Gyy/6MT8xrnkOuXsOTXPDMqbHH6mpD3lqPZZyyAckIIpq3TTBY+EWZ5seip/CDFmqqhaSklyjz2sqhUMnbh+RjxiejiOkN3nP4Ipt9HQbyNsw6tu1Jb+4S+pdawLlecJikab8ZpMYcb+Jc1nPr9lDyiEtUsfLZq89Sn6Az4AnabkLnmHqLCDJ5YFHAqugpwpdSZbrTJI5XCbuqLeFpiYysVzxjHiI6bbNYkUoD7n/cpk9Elrw4dkY2d/OPFU2Fmr1kJ2DlW3tTBHcDwLMA8p9hSKDQL5EOiO/+DHn5L4uTffZ+Kb1+MCwP3M9RpNkfRrFADOpx8mYoZ3Pm9Ga5fQ9ZxWiEfsFKXR66on3v6JbxeyPV5HwqbB3sjL2sdI4vg+B8MQCT9c9j1v75T9OC3I3l4KtWQJHgIr7/BJP4P5HjCor8yJTpJjlHrACXct9w2c/wpFJSJ+I4WcQwiZZ87vUEsI088v9IlG8+H8QwxO4PuK6E6YjLG+1SMVo1x9iVA3SfpSlBDzGtzbj7O/KCPCescpRQG8XGvpvvdvr/JYk8viNKzzRoO0xE0P/Cv6cpxvaIVR7+sQdkTyYWBqHNE+CmjNgbh/5NBWdqmYmfDLampWq6AYC+p595WXXmPmhn6o9EwnnNuHcyvllVVth8pTUkc4AMhDXAOPIdzGsIDGlUHlCW7lik2fQpnlrWZKugZY/HZH3Px6lkH5MHIgzyWSABf3hIY6rHpBdbnQNkb6OPPPDRdwYnjXGoujZjLhBoZ4p5NMr0wT+OAKzl9SHZk0fBUquesbukFY9ADCex3pig4UimwJ9/eTGZAoY7/XQhH/06VZhXe9SwQLDU70XxHiUiAyVL9wm1aPFIN7rGCqPRKU='
+    #    driverClassName: oracle.jdbc.driver.OracleDriver
+    ####以下是mysql的连接
+#    url: jdbc:mysql://127.0.0.1:3306/iga?useUnicode=true&characterEncoding=UTF-8
+#    username: '{cipher}AQBYExLEURoe9KgI7UYximFyQ8oQiummg0AEiwydHYgmYEGYZsjeDD/ZXFNUK7tYreCZ3wL3rCwfZKBCR/PwbLQejDt2p2jpPfiQ9DOXblKpCLufVB/ninzbn+Nbr/Heir72d8+Dq2zRDYE3JX1aJlHYEn5MECyLnuxhIC3IVXIYgHS+rI9BA8q07xhlfF76DKFK9d0vkPvEMouzfRC87GjhWLM1OeENf0JuBp+BHlRQEpDDio+s7fdE24FU2HDWdsw+GbjWMtkNGGRDwtl9FBBdf2bEIbbHP8f9+YsIm2NuRFJrrtVvrvw7i0nS18SqimmcAzNUG2qdQNumI3uYKCijwq5oidyzM19LmsyeAHl5YmhWlc7HXO62aHpZCP//+F8='
+#    password: '{cipher}AQB1aWVMDHAjxrL8smuC8HBqbkU71laJFAgLVjnkK/XrgEoWcMvm8BNVz1SfAYvxvG8daZJNHepkK5Rj2DodvWGShOEBar91rlJebSKmQFF/iOpJMhhWMspHYPl0UKpNlTxW2iZA4+AX5vH3hyOCG7Bhxf6CNmuL/gNniTBvDj2cnUdwUCgh8xPa7XoJDVWMZu4be7AvV/c4ToVjn+X8vt915YW0tcLbEQ5Kn+1y9HFSw9p7v/MQEV1Bm76tkaa2rnWB7VR+kEZY6KP3qg//wplvvnIE/Qstoz3aaCzIH2nn4keaKTPQOq3P9u8w3eUGtaWgLdXF/ItI8IJU47kqFqczRqt6ThXGXp6YwI5R2faUv20TiiN9W2hT3+R6m912tPI='
+#    driverClassName: com.mysql.jdbc.Driver
+
+server:
+  port: 30100
+
+eureka:
+  instance:
+    hostname: configserver
+    prefer-ip-address: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    service-url:
+      defaultZone: http://${eureka_ip:127.0.0.1}:${eureka_port:30000}/eureka

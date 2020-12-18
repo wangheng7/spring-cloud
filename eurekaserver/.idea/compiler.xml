@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aservice" />
+        <module name="config" />
+        <module name="config (1)" />
+        <module name="consumer" />
+        <module name="demo1" />
+        <module name="eurekaclient" />
+        <module name="eurekaprovide" />
+        <module name="hystrix" />
+        <module name="hystrix (1)" />
+        <module name="hystrix (2)" />
+        <module name="hystrix (3)" />
+        <module name="openstack4j" />
+        <module name="ribbon" />
+        <module name="springcloud1" />
+        <module name="thread" />
+        <module name="ultra-iga-configuration" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aservice" target="1.7" />
+      <module name="config" target="1.7" />
+      <module name="config (1)" target="1.7" />
+      <module name="consumer" target="1.8" />
+      <module name="demo1" target="1.7" />
+      <module name="eurekaclient" target="1.7" />
+      <module name="eurekaprovide" target="1.7" />
+      <module name="eurekaserver" target="1.7" />
+      <module name="hystrix" target="1.7" />
+      <module name="hystrix (1)" target="1.7" />
+      <module name="hystrix (2)" target="1.7" />
+      <module name="hystrix (3)" target="1.7" />
+      <module name="openstack4j" target="1.8" />
+      <module name="ribbon" target="1.7" />
+      <module name="springaop" target="1.7" />
+      <module name="springcloud1" target="1.7" />
+      <module name="test" target="1.8" />
+      <module name="test1" target="1.7" />
+      <module name="thread" target="1.7" />
+      <module name="ultra-iga-configuration" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

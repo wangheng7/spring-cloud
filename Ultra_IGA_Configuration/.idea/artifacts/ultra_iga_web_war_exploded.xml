@@ -1,0 +1,115 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ultra-iga-web:war exploded">
+    <output-path>$PROJECT_DIR$/../Ultra_IGA_Web/target/iga</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>ultra-iga-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ultra-iga-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-client:1.8" />
+          <element id="library" level="project" name="Maven: com.sun.jersey:jersey-core:1.8" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.73" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-websocket:4.3.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.3.0.RELEASE" />
+          <element id="archive" name="ultra-iga-bean-1.0.jar">
+            <element id="module-output" name="ultra-iga-bean" />
+          </element>
+          <element id="library" level="project" name="Maven: com.ultrapower:ultra-iga-encrypt:1.0" />
+          <element id="library" level="project" name="Maven: cnccrypto:cnccrypto:1.0" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Maven: com.ultrapower:ultrasafe-esa-webtoken:1.0.7" />
+          <element id="library" level="project" name="Maven: org.apache.poi:poi:3.10-FINAL" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.22" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Maven: xml-apis:xml-apis:1.0.b2" />
+          <element id="library" level="project" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.12" />
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.3.1" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.2" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-redis:1.8.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-keyvalue:1.2.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.data:spring-data-commons:1.13.16.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-oxm:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.20.RELEASE" />
+          <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Maven: redis.clients:jedis:2.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.4.2" />
+          <element id="library" level="project" name="Maven: com.ultrapower:ultra_ams_ssostrengthen:3.0.2" />
+          <element id="library" level="project" name="Maven: com.ultrapower:ams_sec_common:3.0" />
+          <element id="library" level="project" name="Maven: org.springframework.kafka:spring-kafka:1.0.5.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.retry:spring-retry:1.1.3.RELEASE" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:0.9.0.1" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.1.7" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.2.0" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-utils:3.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven.shared:maven-filtering:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-project:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-profile:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact-manager:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-registry:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-core:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-file:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-parameter-documenter:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-http-lightweight:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-http-shared:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: jtidy:jtidy:4aug2000r7-dev" />
+          <element id="library" level="project" name="Maven: org.apache.maven.reporting:maven-reporting-api:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven.doxia:doxia-sink-api:1.0-alpha-7" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-provider-api:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-repository-metadata:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-error-diagnostics:2.0.6" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.0" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-api:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-ssh-external:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-ssh-common:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-plugin-descriptor:2.0.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-interactivity-api:1.0-alpha-4" />
+          <element id="library" level="project" name="Maven: org.apache.maven.wagon:wagon-ssh:1.0-beta-2" />
+          <element id="library" level="project" name="Maven: com.jcraft:jsch:0.1.27" />
+          <element id="library" level="project" name="Maven: classworlds:classworlds:1.1" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-model:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-artifact:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-monitor:2.0.6" />
+          <element id="library" level="project" name="Maven: org.apache.maven:maven-settings:2.0.6" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-container-default:1.0-alpha-9-stable-1" />
+          <element id="library" level="project" name="Maven: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Maven: org.codehaus.plexus:plexus-interpolation:1.6" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.0.4" />
+          <element id="library" level="project" name="Maven: com.ultrapower:ULTRA_IAM_ENCRYPTTOOL:4.0.0" />
+          <element id="library" level="project" name="Maven: com.ultrapower:jerry-framework:1.0.62" />
+          <element id="library" level="project" name="Maven: com.ultrapower:jerry-web-core:1.0.62" />
+          <element id="library" level="project" name="Maven: com.google.zxing:core:3.1.0" />
+          <element id="library" level="project" name="Maven: org.json:json:20160810" />
+          <element id="library" level="project" name="Maven: org.apache.guacamole:guacamole-common:1.1.0" />
+          <element id="library" level="project" name="Maven: com.ultrapower:ultra-iga-core-dependencies:1.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.6" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.6" />
+          <element id="library" level="project" name="Maven: com.belerweb:pinyin4j:2.5.0" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../Ultra_IGA_Web/target/iga/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ultra-iga-web/web/Web" />
+    </root>
+  </artifact>
+</component>

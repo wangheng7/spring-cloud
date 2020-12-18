@@ -1,0 +1,57 @@
+user:
+  password:
+    secretKey: ultrapower
+    encryption: SHA256
+
+# 资源从帐号
+resacc:
+  password:
+    secretKey: ultrapower
+    encryption: TRIPLEDES
+
+# 资源
+resource:
+  password:
+    secretKey: ultrapower
+    encryption: TRIPLEDES
+
+# 管控驱动器
+rmds:
+  password:
+    secretKey: ultrapower
+    encryption: TRIPLEDES
+
+# 应用发布服务器
+appissue:
+  password:
+    secretKey: ultrapower
+    encryption: TRIPLEDES
+
+# 漫游及漫游服务
+roam:
+  password:
+    secretKey: ultrapower
+    encryption: TRIPLEDES
+
+# 票据：资源密钥加密
+ticket:
+  password:
+    secretKey: IAM
+    encryption: TRIPLEDES
+
+sso:
+  password:
+    secretKey: ultrapower
+    encryption: TRIPLEDES
+
+# 主帐号推送密码加密
+aduser:
+  password:
+     secretKey: ultrapower
+     encryption: TRIPLEDES
+
+#传输层加密
+transmission:
+  password:
+     secretKey: ultrapower
+     encryption: TRIPLEDES

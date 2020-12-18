@@ -1,0 +1,112 @@
+superUser:
+ id: sysadmin
+ pwd: +GW1NiOxIf007lQmx5Llwzr4wic=
+
+#注册用户
+register_user_message: 您的验证码是:{0},该验证码有效期{1}分钟.
+#必须为数字,单位为分
+register_user_validity: 5
+
+#注册租户
+register_tenant_message: 您的验证码是:{0},该验证码有效期{1}分钟.
+#必须为数字,单位为分
+register_tenant_validity: 5
+
+#短信认证
+#authn_sms_message: 您的验证码是:{0},该验证码有效期{1}分钟.
+authn_sms_message: 【新4A系统】[{user}]，短信口令{0}，用于您本次登录广东移动新架构4A系统。请在{1}分钟内使用。
+#必须为数字,单位为分
+authn_sms_validity: 5
+
+#绑定用户
+binding_mobile_message: 您的验证码是:{0},该验证码有效期{1}分钟.
+#必须为数字,单位为分
+binding_mobile_validity: 5
+
+#锁定用户
+lock_sms_message: 您的账号登录失败次数已达上限，系统将该账号锁定！
+
+
+#认证信息有效期,单位为分
+authn_validity: 5
+
+#授权码有效期(单位:秒)
+authoriz_code_invalidTime: 30
+
+#短信码类型 number:纯数字(默认)、 blend:混合(数字+字母),blend_up:混合(数字+大写字母),blend_low::混合(数字+小写字母)
+smsCode_type: number
+
+#短信码位数,默认6位
+smsCode_length: 6
+
+session:
+ #会话存储方案 cache:redis缓存 parser:token串解析
+ parserMode: cache
+ create:
+  #会话过期时间(单位:日)
+  expirationTime: 1
+  #会话失效时间(单位:分钟)
+  invalidTime: 30
+
+#CA认证
+ca:
+ algorithm: HmacSHA256
+ screct: LsdRZvGy662Mw81y2NOxlkO6GkQTa
+ iv: kO6GkQTa
+ platformid: 857485774
+ deskey: LsdRZvGy662Mw81y2NOxl
+ busitype: 1
+
+#SMC接口调用配置项：密钥，接口对接的多租户的租户标识
+smc:
+ secretKey: ultrapower.smc.iga.nj.xz
+ tenant: a9c97c3f01a04f549a14a34c9374e4b5
+ iam_url: https://10.254.83.20/iga/index.html?src=smc&token=
+ tokenSecretKey: ultra_smc
+ appcode_smp: YZSMP
+ appcode_satp: YZSATP
+ appcode_staap: YZSTA2P
+ #smp
+ smp_ip: 10.254.83.25
+ #合规
+ satp_ip: 10.254.83.23
+ #态势
+ staap_ip: 10.254.83.24
+ esa_url: https://10.254.83.69
+
+
+#safeword认证
+safewordServer:
+ groupFlag: A,B,S,E,J,D|F,R,H,W,M,L,P,G,N,U,V,T,C,K,Q
+ server: 10.252.33.229:3399,10.244.150.14:3399|10.243.211.193:3399,10.243.211.194:3399
+
+#rsa认证
+rsa:
+ rsaEnable: true
+#sim盾请求参数的配置
+simd:
+ ##是否启用中转平台（true:启用; false:禁用）
+ transfer: false
+ transitUrl: https://112.13.96.207:10443/transit
+ keyReference: B8FB235084DDBBCCAEF6F2B3B5E63637DBDEDD8N
+ applyCertUrl: https://10.54.9.7/api/certApplyActiveRequest
+ applyCertCallbackUrl: http://120.196.212.10/api/authn/v1/simdcerthandler
+ signAuthUrl: https://10.54.9.7/api/signAuthRequest
+ signAuthCallbackUrl: http://120.196.212.10/api/authn/v1/simdhandler
+ getSIMCertUrl: https://10.54.9.7/api/getSimCert
+ apId: "0063"
+ ecId:
+ signType: "01"
+ ##单位秒
+ authTimeout: 120
+ ##加密dataToBeDisplay的编码格式 0:ASCII 1:Unicode
+ encodetype: "1"
+ ##加密数据长度超过117个字节,业务方需要做控制!!!!!
+ dataToBeDisplay: "欢迎登录信息系统部4A平台"
+ channelType : 0
+ publicKey: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLUVS0/8/k0LTuoXeoIJRbvDvt9VY/E8eKBv+v/JtOqsMa0DHG3FbPSjB84sC35U1KmaLVyvlS67tkRu/GTU1E2ApSAKMdyoKr+GqP4nd9INiIN66P21DxayhqIdf3OexfzQDaRssCgTvy+apTs3+lzsyS523w7jl/Z003TBLFXQIDAQAB"
+ privateKey: "MIICeAIBADANBgkqhkiG9w0BAQEFAASCAmIwggJeAgEAAoGBAMcT3yt5LLycNETR\n8Rqp9G6loxZlqsiQge1vFFo/nTA/R4NWcLecXDVh0TEHtwZtTcJSBroHpO5kMC5K\nRiMReGc0oDBy9t12iwwCp6/qC8HrGWnJ3a6iEBxko4oB+XlMR7gLd5scNZhp6LaE\nNi7Z2Mi2KLjZHiYbm2+fAfTeWMGlAgMBAAECgYEAponYMz0OkMY3766VfVHaOsn0\nEeOBKIHDP4aiRxFahScawyOH7gIvHTU0VEj48rZzy3DlUbDdZ9SGfeMCo4mU537p\nid/g2diSwMTrkuQdYrDKaN+IuCVNFnsQ6ZpicDc9yhbZIwhP+ODYIF1XpBx9qlJj\nJZJn6yq5cNRIquBi200CQQDyue8r4CwzA0UtLhumpH58DgAfe53slh8FIDr2UpSc\nNfKxmgj4luztFIumj170TwXSKKICv/rHc5JMPYCeMbkDAkEA0fbf2A+VDJ2LOc83\nhWUOQf5kMEjmECohRU+iUEcnW+dF64kq05YSlsDW/ehmrPqMAsnHklndtf7cJKsy\nUYFWNwJBAK1228pLZsr+J03mibRKEmqtxsC5I1+U2Y5cPkcTNUl99HegUZD2q1Oz\nPypFg+KtJsfOahn1AU/Q9FiwC18CwekCQBWOCpzbvKl24vwkUcbYAQa1XwO1+Chg\nqtm6uycSpu/AZmUvx73BAleHpIqceS346ra+kEZuA1zTtTXufVPwuzECQQDxi8xB\nWgVnHUNfAGfMuOF69tdomJH+WVK1HObGyrTUNwPGmWA1tPEd1mIAoyfUZOujN+ii\npJBY/7/qPsdh3IJm"
+
+# 认证模块默认租户UUID
+tenant: af2edca5813a4fd3b1faeed038e86a82
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.dao.UserMapper">
+    <resultMap id="UserMap" type="User">
+        <result property="userId" column="user_Id"/>
+        <result property="userName" column="username"/>
+        <result property="sex" column="sex"/>
+        <result property="birthday" column="birthday"/>
+        <result property="address" column="address"/>
+    </resultMap>
+
+    <insert id="addUser" parameterType="com.example.domain.User">
+      INSERT into User(
+        user_Id,username,sex,birthday,address
+      )values(
+      #{userId},#{userName},#{sex},#{birthday},#{address}
+      )
+    </insert>
+
+    <delete id="delUser" parameterType="com.example.domain.User">
+      delete from User where user_Id=#{userId}
+    </delete>
+
+    <update id="updateUser" parameterType="com.example.domain.User">
+      update User SET
+        <if test="userName != null">username = #{userName},</if>
+        <if test="sex != null">sex = #{sex},</if>
+        <if test="birthday != null">birthday = #{birthday},</if>
+        <if test="address != null">address = #{address},</if>
+      where user_Id = #{userId}
+    </update>
+
+    <select id="findUserById" parameterType="com.example.domain.User" resultMap="UserMap">
+      select * from User where
+      <if test="userId != null">
+          user_Id = #{userId}
+      </if>
+    </select>
+
+    <select id="findAllUser" resultType="com.example.domain.User">
+        select * from User
+    </select>
+</mapper>

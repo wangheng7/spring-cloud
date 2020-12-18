@@ -1,0 +1,15 @@
+manageAuthz:
+  #是否存在授权管理员
+  existAuthzRole: false
+  # 是否使用缓存
+  cache:
+    enabled: false
+  usergroup:
+    # 开启用户组过滤
+    enabled: true
+  resgroup:
+    # 开启资源组过滤
+    enabled: true
+  logicDelete: true
+  #是否开启默认角色菜单展示。即不配置默认角色的时候，进入系统之后是否有菜单数据
+  isQueryMenuByDefaultRole: true

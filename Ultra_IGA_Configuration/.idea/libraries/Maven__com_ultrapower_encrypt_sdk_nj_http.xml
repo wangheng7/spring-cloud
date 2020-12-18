@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ultrapower:encrypt_sdk:nj-http">
+    <CLASSES>
+      <root url="jar://E:/repository/com/ultrapower/encrypt_sdk/nj-http/encrypt_sdk-nj-http.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/com/ultrapower/encrypt_sdk/nj-http/encrypt_sdk-nj-http-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/com/ultrapower/encrypt_sdk/nj-http/encrypt_sdk-nj-http-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

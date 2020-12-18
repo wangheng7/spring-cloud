@@ -1,0 +1,13 @@
+#portal单点登陆相关参数
+ssoPortal:
+  systemId: GMCCTYYHZX_ACCESSRIGHT
+  systemAccount: dwuiptest
+  systemPwd: Gmcc1234
+
+#待办推送相关参数
+todoPush:
+  pushUrl: http://eiptodo.gmcc.net/appsync/servlet
+  appName: 统一用户中心
+  userId: xttyyhzx
+  password: Atyyhzx123!
+  usercenterBase: http://10.251.236.147:8080/iga/newPortalLogin.do

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Ultra_IGA_Web" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Web/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Registration/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Authentication/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_API/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Bean/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_User/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Policy/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Authorization/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Casp_Client/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra-IGA-SynSubAccount/pom.xml" />
+        <option value="$PROJECT_DIR$/../ultra-iga-res/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Operate_Log_Starter/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Core/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_JK_Server/pom.xml" />
+        <option value="$PROJECT_DIR$/../Ultra_IGA_Admin/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://www.springframework.org/dtd/spring-beans.dtd" location="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="myConfigurationMap">
+      <map>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Framework/v1.0.0/Ultra_IGA_5.0_Parent" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_API">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Framework/v1.0.0/Ultra_IGA_API" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_AppressubaccSyn" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Audit">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Audit" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Authentication">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Authentication" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Authorization">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Authorization" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Bean">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Bean" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Casp_Client">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Casp_Client" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Framework/v1.0.0/Ultra_IGA_Configuration" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Flow">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Flow" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_JK_Server">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_JK_Server" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Job">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Job" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Policy">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Policy" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Registration">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Framework/v1.0.0/Ultra_IGA_Registration" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_SSO">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_SSO" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Sleuth">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_Sleuth" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_SysConfig">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_SysConfig" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_User">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/Ultra_IGA_User" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Ultra_IGA_Web">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Web" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../ultra-iga-res">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="trunkUrl" value="https://60.247.77.162/ams/AMS5.0/AMS_New_Product/develop/v5.0.0/Ultra_IGA_Server/ultra-iga-res" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

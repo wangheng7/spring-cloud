@@ -1,0 +1,110 @@
+tenant: a9c97c3f01a04f549a14a34c9374e4b5
+province: gd
+massageHandle:
+  title: 金库审批结果
+  approve: reqUserName你好，你的申请编号为:reqId的申请已经被approveUserName同意,如有疑问请联系:approveUserPhone;
+  refuse: reqUserName你好，你的申请编号为:reqId的申请已经被approveUserName拒绝,如有疑问请联系:approveUserPhone;
+  refusedSMS: 很抱歉，您的reqID号申请审批不通过，请重新申请,审批人为approvedUserName(userID,mobile);
+  approvedSMS: 尊敬的用户，您的reqID号申请金库口令为：jkPassCode,审批人为approvedUserName(userID,mobile),endTime;
+  createRequest: approveUserName你好，reqUserName提交的一条金库申请，申请编号为:reqId，请及时进行处理;
+  createRequestTitle: 金库申请提示信息
+  #广东项目配置为30 其他项目默认为0
+  provinceSmsNum: 0
+  # vpn申请短信模板
+  vpnRequestSMS: 【4A平台】员工reqUserName(userID,mobile)，申请批号reqID，申请由vpn接入管控平台使用权限，开始时间为startTime,申请使用时长reqCycle小时，申请理由：reqReason。请审批;同意请回复Y，拒绝回复N,或登录4A平台进行页面审批.
+  adminRequestSMS: 【4A平台】员工reqUserName(userID,mobile)，申请批号reqID，申请管控平台管理员登录系统使用权限，开始时间为startTime,申请使用时长reqCycle小时，申请理由：reqReason。请审批；同意请回复Y，拒绝回复N；或登录4A平台进行页面审批.
+  remoteAppRes: 【4A平台】员工reqUserName(userID,mobile)，申请批号reqID，申请appResName系统资源的operationKeyword命令，type，申请理由：reqReason。请审批;同意请回复Y，拒绝回复N.
+  remoteSysRes: 【4A平台】员工reqUserName(userID,mobile)，申请批号reqID，申请sysResName系统资源的operationKeyword命令，type，申请理由：reqReason。请审批;同意请回复Y，拒绝回复N.
+  remoteLogin: 【4A平台】员工reqUserName(userID,mobile)，申请批号reqID，申请帐号account登录资源resName(资源IP为resIP)，type,申请理由：reqReason。请审批;同意请回复Y，拒绝回复N.
+  #广东项目加入了工单类型还有工单号用下面这个模板其余项目还是之前模板
+  #remoteLogin: 【4A平台】员工reqUserName(userID,mobile)，申请工单类型workOrderType，申请工单号workOrderId，申请批号reqID，申请帐号account登录资源resName(资源IP为resIP)，type,申请理由：reqReason。请审批;同意请回复Y，拒绝回复N.
+time:
+  applyTime: 1
+  authnTime: 1
+
+#是否启用金库的配置（true:启用; false:禁用）
+jk:
+  enable:
+    vpn: true
+    admin: true    #广东项目默认不启用平台登录金库
+    accLogin: true
+    operLogin: true
+
+#敏感工号配置
+sensitiveAcc:
+    ftp:
+        host: 10.251.236.140
+        port: 22
+        user: root
+        password: Gmcc@1234
+        remotePath: /opt/qujiangbo
+        localPath: /opt/zhaoyongjian
+    quartzSwitch: false
+    quartzCorn : 0 0/3 * * * ? *
+    switch:
+        loginSensitiveAcc: false
+    boss :
+        db1f1082fc3341a589849a3a2ce1d5df : http://10.252.17.239:80/csp/services/bsf/fourAService?wsdl     #东莞boss
+        f1ded14e0e1f402e8cf92f807651b1a7 : http://10.252.150.141:80/csp/services/bsf/fourAService?wsdl     #佛山大区NG3生产前台
+        b6f7e41d63914ac1bbafaac8408c20ef : http://10.252.17.247:80/csp/services/bsf/fourAService?wsdl     #NGBOSS湛茂阳
+        afd5d51119ba4ac68805b59222e8e391 : http://10.252.150.133:80/csp/services/bsf/fourAService?wsdl      #粤东粤北NG3生产前台
+        318c665182814a85a9ea35efe6573185 : http://10.252.17.241:80/csp/services/bsf/fourAService?wsdl     #广州NGBOSS前台
+        34574c3f62214943a5b6fba4020c2626 : http://10.252.150.157:80/csp/services/bsf/fourAService?wsdl      #深圳NG3生产前台
+    bosReqMethod : isOperHaveSensitiveRight  #请求函数
+
+#同一部门配置
+department:
+    thirdBusiness: # 营业厅第三方人员第二节点地方分公司 : 第一节点地方分公司
+        91334 : 3      #梅州分公司 48077-91334-
+        99265 : 4 #阳江分公司 48077-99265-
+        87465 : 5 # 惠州分公司 48077-87465-
+        120255 : 6 #云浮分公司 48077-120255-
+        58203 : 8 #深圳分公司 48077-58203-
+        114750 : 9 #潮州分公司 48077-114750-
+        111586 : 10 #中山分公司 48077-111586-
+        75019 : 11 #韶关分公司 48077-75019-
+        79765 : 12 #肇庆分公司 48077-79765-
+        95079 : 13 #汕尾分公司 48077-95079-
+        96908 : 14 #河源分公司 48077-96908-
+        65634 : 15 #汕头分公司 48077-65634-
+        76544 : 18 #湛江分公司 48077-76544-
+        63677 : 19 #珠海分公司 48077-63677-
+        81620 : 20 #江门分公司 48077-81620-
+        48324 : 21 #广州分公司 48077-48324-
+        100485 : 22  #清远分公司 48077-100485-
+        70139 : 23 #佛山分公司 48077-70139-
+        102444 : 24 #东莞分公司 48077-102444-
+        116732 : 134901 #揭阳分公司 48077-116732-
+        85401 : 134541 #茂名分公司 48077-85401-
+
+    thirdCustomerService: #客服第三方人员第二节点地方中心 : 第一节点地方分公司
+        121893 : 24 #东莞中心 48078-121893-
+        121894 : 21 #广州中心 48078-121894-
+        121895 : 8 #深圳中心 48078-121895-
+        121896 : 15 #汕头中心 48078-121896-
+        121897 : 20 #江门中心 48078-121897-
+        122517 : 23 #佛山中心 48078-122517-
+    city:
+      - 3
+      - 4
+      - 5
+      - 6
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 18
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 134901
+      - 134541
+    #审批关系部门校验开关
+    approverSwitch: false

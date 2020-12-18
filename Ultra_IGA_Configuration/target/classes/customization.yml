@@ -1,0 +1,13 @@
+# 广东 - 前台登录资源地址切换策略开关
+GD:
+  switch:
+    portalFilterPolicy: false
+    amsLoginJk: false
+    authority: false
+    sendLockUserSms: false
+    sendModifyUserPwdSms: false
+    notSetDefaultResGroup: false
+#广东默认字符堡垒id和驱动id
+ID:
+  fortID: 25
+  driverID: 5741bec7e15a4b21a0b942a86f357c24

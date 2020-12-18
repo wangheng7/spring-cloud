@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ultrapower:bcprov-jdk16-143:nj-http">
+    <CLASSES>
+      <root url="jar://E:/repository/com/ultrapower/bcprov-jdk16-143/nj-http/bcprov-jdk16-143-nj-http.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/repository/com/ultrapower/bcprov-jdk16-143/nj-http/bcprov-jdk16-143-nj-http-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/repository/com/ultrapower/bcprov-jdk16-143/nj-http/bcprov-jdk16-143-nj-http-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

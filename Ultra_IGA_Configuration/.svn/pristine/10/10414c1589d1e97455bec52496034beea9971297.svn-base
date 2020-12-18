@@ -1,0 +1,69 @@
+#caspconfig:
+#  queryStateEnable: true #探测服务器是否存在
+#  hasbak: false #是否存在备用服务器
+#  switchcycletime: 60000 #巡检时间 单位 毫秒
+#  loginUrl: page/index.jsp #服务器登陆页面地址
+#  agentSsoUrl: simulation.do #服务器登陆页面地址
+##  和服务器通信类 可配com.ultrapower.casp.common.rpc.socket.client.SendAndReceive和com.ultrapower.casp.common.rpc.nio.client.SendAndReceive
+##  使用socket通讯端口时，配置com.ultrapower.casp.common.rpc.socket.client.SendAndReceive
+##  使用nio通讯端口时，配置com.ultrapower.casp.common.rpc.nio.client.SendAndReceive
+#  rpcClass: com.ultrapower.casp.common.rpc.socket.client.SendAndReceive
+#  dataFormatMode: 41
+#  encodeType: 1
+#  enableCaspClient: true
+#  appCode: IAM000
+#  appKey: k73yz8tJCW0=
+#  server:
+#    - id: master #服务器ID
+#      ip: 192.168.187.161 #服务器IP
+#      port: 20001 #服务器对外提供认证服务端口。可配20001和20011,20001为socket通讯端口，20011为nio通讯端口
+#      probePort: 20000 #服务器对外提供状态探测端口。可配20000和20010,20000为socket通讯端口，20010为nio通讯端口
+#      webServerPort: 8080 #服务器对外WEB服务端口，web服务器端口
+#      isMaster: true #是否为主服务器
+#      retValue: serverisok #状态探测返回值
+#      timeOut: 3000 #超时时间 单位 毫秒
+#      #状态探测类名
+#       #  可配com.ultrapower.casp.client.serverstate.CaspStateSocketDriver和com.ultrapower.casp.client.serverstate.nio.CaspStateNioDriver
+#        # 使用socket通讯端口时，配置com.ultrapower.casp.client.serverstate.CaspStateSocketDriver
+#         #使用nio通讯端口时，配置com.ultrapower.casp.client.serverstate.nio.CaspStateNioDriver
+#      queryStateClass: com.ultrapower.casp.client.serverstate.CaspStateSocketDriver
+#      appContext: casp
+#      scheme: http
+fort:
+  version: 2.0.2
+  ip: 192.168.186.234
+  port: 5000
+operAuthz:
+  logicDelete: true
+  #操作授权相关配置：
+  #validateDataExist：判断是否需要校验数据是否在数据库里存在，有主帐号，从帐号，资源，资源角色等；默认true，校验
+  #validateOperAuthzDataExist:判断是否需要校验授权已存在，如果已存在则提示授权已存在；默认false，不校验
+  #isOnlyAuthz:判断是否要开启个人从账号授权，如果开启了那么独享账号只能授权给一个人
+  validateDataExist: true
+  validateOperAuthzDataExist: false
+  supportSendSmsMessage:  false
+  isOnlyAuthz:  false
+jkservice:
+  version: 5.0
+
+#IDC 使用做堡垒IP映射用
+ipMapping:
+  isEnable: false
+  ipList: 1.1.1.1
+
+#省份标识，默认值是IGA，标识是不走定制需求； 现在广东用到这个开关 如果是gd 则系统资源从帐号可以授权给多个主帐号，应用资源从帐号不能授权给多个主帐号
+province: iga
+
+#CMIOT单点登录配置
+cmiot:
+  #生产cmiot资源资源编号，逗号分隔
+  resNums: ",jituancmiot-oc,jituancmiot-op,"
+  url:
+    #同步jar部署的地址
+    ssoToken: http://10.253.106.16:9898/syncenter/synsso/v1/ssoToken
+
+## 南基P域双中心接入代理开关配置
+domain:
+  enabled: false
+  center: A
+

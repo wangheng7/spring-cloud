@@ -1,0 +1,32 @@
+resManuConfig:
+  config:
+    Oracle: 10001
+    IBM: 10002
+    Sun: 10003
+    HP: 10004
+    Microsoft: 10005
+    RedHat: 10006
+    Juniper: 10007
+    Cisco: 10008
+    Huawei: 10009
+    ZTE: 10010
+    AsiaInfo: 10011
+    cscj: 10012
+    boco: 10013
+    DC-SI_TECH: 10014
+    Novell: 10015
+    Teredata: 10016
+    Datcent: 10017
+    dexun: 10018
+    ubuntu: 10020
+    H3C: 10021
+    GBASE: 10022
+    MongoDB: 10023
+    PostgreSQL数据库: 10024
+    SNC_NET: 10026
+    ALIYUN: 10027
+    CentOS: 10028
+    NCR: 11115
+    Sybase: 160459
+    SqlServer: 160460
+    Pivotal: 160461

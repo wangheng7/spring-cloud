@@ -1,0 +1,30 @@
+server:
+  port: 8087
+
+spring:
+  application:
+    name: config-server
+  profiles:
+      active: native  #设置使用本地配置
+  cloud:
+      config:
+        enabled: true
+        server:
+          native:
+            search-locations: classpath:/   # 配置文件所在目录
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  instance:
+      # 使用 ip 代替实例名
+      prefer-ip-address: true
+      # 实例的主机名
+      hostname: ${spring.cloud.client.ip-address}
+      # 实例的 ID 规则
+      instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/

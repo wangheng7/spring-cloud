@@ -1,0 +1,32 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: hystrix-dashboard-turbine
+
+feign:
+  hystrix:
+    enabled: true
+
+eureka:
+  instance:
+      # 使用 ip 代替实例名
+      prefer-ip-address: true
+      # 实例的主机名
+      hostname: ${spring.cloud.client.ip-address}
+      # 实例的 ID 规则
+      instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
+  client:
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:8761/eureka/
+
+
+turbine:
+  # 监控的应用名称，多个以逗号隔开
+  app-config: hystrix-a,hystrix-b
+  aggregator:
+    # 指定聚合哪些集群，默认为 default
+    clusterConfig: default
+  # 指定集群名称为 default
+  clusterNameExpression: new String("default")

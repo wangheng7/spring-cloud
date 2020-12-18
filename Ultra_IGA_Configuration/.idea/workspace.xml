@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ultra-iga-web:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15eca82a-19a8-4b7c-809e-bae01c544fba" name="Default Changelist" comment="添加">
+      <change afterPath="$PROJECT_DIR$/../Ultra_IGA_Authentication/src/main/resources/xfire-framework.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/synresaccwebservice.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/shell/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent/shell/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/java/com/ultrapower/framework/api/rest/RouteRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/java/com/ultrapower/framework/api/rest/RouteRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/resources/bootstrap-gdusercenter.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/resources/bootstrap-gdusercenter.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/resources/bootstrap-usercenter.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/resources/bootstrap-usercenter.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_API/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/src/main/java/com/ultrapower/iga/appressubaccsyn/domain/Appressubacc.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_AppressubaccSyn/src/main/java/com/ultrapower/iga/appressubaccsyn/domain/Appressubacc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Audit/src/main/java/com/ultrapower/iga/audit/rest/SsoLogRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Audit/src/main/java/com/ultrapower/iga/audit/rest/SsoLogRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Audit/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Audit/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Authentication/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Authentication/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Authorization/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Authorization/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/redis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/redis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/user.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/user.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Flow/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Flow/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_JK_Server/src/main/java/com/ultrapower/iga/jk/handler/UserDelNotifyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_JK_Server/src/main/java/com/ultrapower/iga/jk/handler/UserDelNotifyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_JK_Server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_JK_Server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Job/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Job/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Policy/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Policy/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_SSO/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_SSO/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Sleuth/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Sleuth/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_SysConfig/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_SysConfig/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_User/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_User/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_User/src/main/java/com/ultrapower/iga/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_User/src/main/java/com/ultrapower/iga/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_User/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_User/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/java/com/ultrapower/iga/util/WebClientUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/java/com/ultrapower/iga/util/WebClientUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/webapp/WEB-INF/conf/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/webapp/WEB-INF/conf/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/webapp/WEB-INF/conf/redis.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/webapp/WEB-INF/conf/redis.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/webapp/WEB-INF/conf/rest_conf.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Ultra_IGA_Web/src/main/webapp/WEB-INF/conf/rest_conf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ultra-iga-res/src/main/java/com/ultrapower/iga/resource/rest/ResAccountRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ultra-iga-res/src/main/java/com/ultrapower/iga/resource/rest/ResAccountRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ultra-iga-res/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ultra-iga-res/src/main/resources/bootstrap.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\repository" />
+        <option name="mavenHome" value="D:/development/apache-maven-3.1.1" />
+        <option name="userSettingsFile" value="D:\development\apache-maven-3.1.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1hwnnW29JD2UzEDIQJPiETW8QfD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ultra_IGA_Admin" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ultrapower.iga.synsubaccount.domain.authen" />
+      <recent name="com.ultrapower.iga.synsubaccount.domain" />
+      <recent name="com.ultrapower.iga.synsubaccount.rpc" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\V5Space\Ultra-IGA-SynSubAccount\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat1">
+    <configuration name="AccountID" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ultrapower.iga.synsubaccount.domain.result.AccountID" />
+      <module name="ultra-iga-synsubaccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ultrapower.iga.synsubaccount.domain.result.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Convertor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ultrapower.iga.synsubaccount.util.Convertor" />
+      <module name="ultra-iga-synsubaccount" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ultrapower.iga.synsubaccount.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Ultra_IGA_Configuration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ultra_IGA_Configuration" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="APIApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.framework.api.APIApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppressubaccSynApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-appressubaccsyn" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.appressubaccsyn.AppressubaccSynApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-audit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.audit.AuditApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthenticationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-authentication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.authentication.AuthenticationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-authorization" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.authorization.AuthorizationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigurationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Ultra_IGA_Configuration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.framework.configuration.ConfigurationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-flow" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.flow.FlowApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JKApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-jk-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.jk.JKApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.job.JobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PolicyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-policy" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.policy.PolicyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-registration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.framework.registration.RegistrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ResourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-resource" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.ResourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SSOApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-sso" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.SSOApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SlecuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-sleuth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.slecuth.SlecuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SynSubAccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-synsubaccount" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.synsubaccount.SynSubAccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-sysconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.sysconfig.SysConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ultra-iga-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ultrapower.iga.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.58" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf-8" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ultra-iga-web:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ultra_iga_web_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ultra-iga-bean" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64028" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+        <EnvironmentVariables>
+          <option name="NAME" value="JAVA_TOOL_OPTIONS" />
+          <option name="VALUE" value="-Dfile.encoding=utf-8" />
+          <option name="IS_PREDEFINED" value="false" />
+        </EnvironmentVariables>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ultra-iga-web:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Convertor" />
+      <item itemvalue="Application.AccountID" />
+      <item itemvalue="JUnit.All in Ultra_IGA_Configuration" />
+      <item itemvalue="Spring Boot.APIApplication" />
+      <item itemvalue="Spring Boot.AuthenticationApplication" />
+      <item itemvalue="Spring Boot.ConfigurationApplication" />
+      <item itemvalue="Spring Boot.RegistrationApplication" />
+      <item itemvalue="Spring Boot.UserApplication" />
+      <item itemvalue="Spring Boot.PolicyApplication" />
+      <item itemvalue="Spring Boot.AuthorizationApplication" />
+      <item itemvalue="Spring Boot.AuditApplication" />
+      <item itemvalue="Spring Boot.SysConfigApplication" />
+      <item itemvalue="Spring Boot.FlowApplication" />
+      <item itemvalue="Spring Boot.SSOApplication" />
+      <item itemvalue="Spring Boot.SlecuthApplication" />
+      <item itemvalue="Spring Boot.JobApplication" />
+      <item itemvalue="Spring Boot.ResourceApplication" />
+      <item itemvalue="Spring Boot.AppressubaccSynApplication" />
+      <item itemvalue="Spring Boot.SynSubAccountApplication" />
+      <item itemvalue="Spring Boot.JKApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="Tomcat Server.tomcat1" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AccountID" />
+        <item itemvalue="Application.Convertor" />
+        <item itemvalue="JUnit.All in Ultra_IGA_Configuration" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.11680328" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",ALPHA_COMPARATOR" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\admin\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\ultra-iga-res" />
+          <option name="myCopyRoot" value="D:\V5Space\ultra-iga-res" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_5.0_Parent" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_5.0_Parent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Admin" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Admin" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_API" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_API" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_AppressubaccSyn" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_AppressubaccSyn" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Audit" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Audit" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Authentication" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Authentication" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Authorization" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Authorization" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Bean" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Bean" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Casp_Client" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Casp_Client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Configuration" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Configuration" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Core" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Flow" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Flow" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_JK_Server" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_JK_Server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Job" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Job" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Operate_Log_Starter" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Operate_Log_Starter" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Policy" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Policy" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Registration" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Registration" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Sleuth" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Sleuth" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_SSO" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_SSO" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_SysConfig" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_SysConfig" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_User" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_User" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Web" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Web" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\ultra-iga-res" />
+          <option name="myCopyRoot" value="D:\V5Space\ultra-iga-res" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_5.0_Parent" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_5.0_Parent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Admin" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Admin" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_API" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_API" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_AppressubaccSyn" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_AppressubaccSyn" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Audit" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Audit" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Authentication" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Authentication" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Authorization" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Authorization" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Bean" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Bean" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Casp_Client" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Casp_Client" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Configuration" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Configuration" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Core" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Core" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Flow" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Flow" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_JK_Server" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_JK_Server" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Job" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Job" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Operate_Log_Starter" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Operate_Log_Starter" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Policy" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Policy" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Registration" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Registration" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Sleuth" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Sleuth" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_SSO" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_SSO" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_SysConfig" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_SysConfig" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_User" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_User" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\V5Space\Ultra_IGA_Web" />
+          <option name="myCopyRoot" value="D:\V5Space\Ultra_IGA_Web" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15eca82a-19a8-4b7c-809e-bae01c544fba" name="Default Changelist" comment="" />
+      <created>1600931188487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600931188487</updated>
+      <workItem from="1600931225482" duration="89000" />
+      <workItem from="1601190443021" duration="4889000" />
+      <workItem from="1601196650846" duration="261000" />
+      <workItem from="1601196964505" duration="45000" />
+      <workItem from="1601197021163" duration="3224000" />
+      <workItem from="1601200807237" duration="2264000" />
+      <workItem from="1601207807145" duration="116000" />
+      <workItem from="1601255303167" duration="1197000" />
+      <workItem from="1601256530474" duration="5787000" />
+      <workItem from="1601346946643" duration="10771000" />
+      <workItem from="1601426387787" duration="6543000" />
+      <workItem from="1601433191961" duration="7670000" />
+      <workItem from="1601456319075" duration="1446000" />
+      <workItem from="1602202927098" duration="19878000" />
+      <workItem from="1602233029663" duration="2055000" />
+      <workItem from="1602235106982" duration="294000" />
+      <workItem from="1602235406101" duration="539000" />
+      <workItem from="1602235949770" duration="3214000" />
+      <workItem from="1602239247464" duration="534000" />
+      <workItem from="1602289961924" duration="21925000" />
+      <workItem from="1602461897371" duration="8834000" />
+      <workItem from="1602471714796" duration="723000" />
+      <workItem from="1602472755149" duration="17179000" />
+      <workItem from="1602494083304" duration="7989000" />
+      <workItem from="1602549365418" duration="36790000" />
+      <workItem from="1602653039038" duration="20606000" />
+      <workItem from="1602722528801" duration="1930000" />
+      <workItem from="1602724666021" duration="393000" />
+      <workItem from="1602726188912" duration="16943000" />
+      <workItem from="1603674084192" duration="1325000" />
+      <workItem from="1603699226450" duration="5091000" />
+      <workItem from="1603765377555" duration="19113000" />
+      <workItem from="1603879168869" duration="1839000" />
+      <workItem from="1603934528209" duration="2500000" />
+      <workItem from="1603937295819" duration="15308000" />
+      <workItem from="1604020192533" duration="6239000" />
+      <workItem from="1604052371078" duration="4043000" />
+      <workItem from="1604390041883" duration="3691000" />
+      <workItem from="1604451139444" duration="1835000" />
+      <workItem from="1604630219199" duration="3892000" />
+      <workItem from="1604907503167" duration="500000" />
+      <workItem from="1605087323054" duration="2667000" />
+      <workItem from="1605594345571" duration="25000" />
+      <workItem from="1605660774376" duration="1691000" />
+      <workItem from="1605667622309" duration="12000" />
+      <workItem from="1605667961664" duration="3535000" />
+      <workItem from="1605680155259" duration="129000" />
+      <workItem from="1605680304967" duration="835000" />
+      <workItem from="1605691563871" duration="24000" />
+      <workItem from="1605748267691" duration="1276000" />
+      <workItem from="1605754527943" duration="24000" />
+      <workItem from="1605755842985" duration="809000" />
+      <workItem from="1605766364048" duration="856000" />
+      <workItem from="1605769789818" duration="8125000" />
+      <workItem from="1605831795321" duration="595000" />
+      <workItem from="1605833765124" duration="361000" />
+      <workItem from="1606134358626" duration="20000" />
+      <workItem from="1606210332116" duration="377000" />
+      <workItem from="1606264299820" duration="585000" />
+      <workItem from="1606437137171" duration="1027000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../Ultra_IGA_5.0_Parent" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_API" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Audit" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Authentication" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Authorization" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Bean" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Casp_Client" />
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Flow" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Job" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Policy" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Registration" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_SSO" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_Sleuth" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_SysConfig" />
+      <path value="$PROJECT_DIR$/../Ultra_IGA_User" />
+      <path value="$PROJECT_DIR$/../ultra-iga-res" />
+    </ignored-roots>
+    <MESSAGE value="添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#Notifications" timestamp="1603938216818">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1603938216818" />
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1602296784097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602296784097" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604022746316">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604022746316" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1602572539558">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1602572539558" />
+    <state x="360" y="70" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1601195672513">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="70" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1601195672513" />
+    <state x="473" y="271" width="590" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602292460533">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="271" width="590" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1602292460533" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602581975387">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602581975387" />
+    <state x="340" y="4" key="CommitChangelistDialog2" timestamp="1602681821112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602681821112" />
+    <state width="509" height="466" key="DebuggerActiveHint" timestamp="1603952188663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="509" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1603952188663" />
+    <state x="118" y="54" width="1350" height="882" key="DiffContextDialog" timestamp="1605680565064">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="118" y="54" width="1350" height="882" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1605680565064" />
+    <state x="550" y="150" key="FileChooserDialogImpl" timestamp="1606264894953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="550" y="150" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1606264894953" />
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom" timestamp="1605779377566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605779377566" />
+    <state width="1493" height="202" key="GridCell.Tab.0.center" timestamp="1605779377565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605779377565" />
+    <state width="1493" height="202" key="GridCell.Tab.0.left" timestamp="1605779377565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605779377565" />
+    <state width="1493" height="202" key="GridCell.Tab.0.right" timestamp="1605779377565">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605779377565" />
+    <state width="1292" height="642" key="GridCell.Tab.1.bottom" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.1.center" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.1.left" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.1.right" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.2.bottom" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.2.center" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.2.left" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="642" key="GridCell.Tab.2.right" timestamp="1605779377560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="642" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1605779377560" />
+    <state width="1292" height="260" key="GridCell.Tab.3.bottom" timestamp="1604024999599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="260" key="GridCell.Tab.3.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604024999599" />
+    <state width="1292" height="260" key="GridCell.Tab.3.center" timestamp="1604024999599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="260" key="GridCell.Tab.3.center/0.0.1536.824@0.0.1536.824" timestamp="1604024999599" />
+    <state width="1292" height="260" key="GridCell.Tab.3.left" timestamp="1604024999599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="260" key="GridCell.Tab.3.left/0.0.1536.824@0.0.1536.824" timestamp="1604024999599" />
+    <state width="1292" height="260" key="GridCell.Tab.3.right" timestamp="1604024999599">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1292" height="260" key="GridCell.Tab.3.right/0.0.1536.824@0.0.1536.824" timestamp="1604024999599" />
+    <state width="1431" height="260" key="GridCell.Tab.4.bottom" timestamp="1604024304730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1431" height="260" key="GridCell.Tab.4.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604024304730" />
+    <state width="1431" height="260" key="GridCell.Tab.4.center" timestamp="1604024304730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1431" height="260" key="GridCell.Tab.4.center/0.0.1536.824@0.0.1536.824" timestamp="1604024304730" />
+    <state width="1431" height="260" key="GridCell.Tab.4.left" timestamp="1604024304730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1431" height="260" key="GridCell.Tab.4.left/0.0.1536.824@0.0.1536.824" timestamp="1604024304730" />
+    <state width="1431" height="260" key="GridCell.Tab.4.right" timestamp="1604024304730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1431" height="260" key="GridCell.Tab.4.right/0.0.1536.824@0.0.1536.824" timestamp="1604024304730" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1603872689388">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1603872689388" />
+    <state x="-16" y="130" key="MergeDialog" timestamp="1603936542144">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-16" y="130" key="MergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603936542144" />
+    <state x="477" y="128" key="MultipleFileMergeDialog" timestamp="1603936791376">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="128" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603936791376" />
+    <state x="408" y="110" key="NewModule_or_Project.wizard" timestamp="1603871317200">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="408" y="110" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1603871317200" />
+    <state x="485" y="123" key="RollbackChangesDialog" timestamp="1605769914228">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="123" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605769914228" />
+    <state x="470" y="42" width="1038" height="707" key="SettingsEditor" timestamp="1605748322509">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="470" y="42" width="1038" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605748322509" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1606264888996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606264888996" />
+    <state x="0" y="127" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1601193962762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="127" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1536.824@0.0.1536.824" timestamp="1601193962762" />
+    <state x="381" y="237" width="959" height="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605748448094">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="381" y="237" width="959" height="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605748448094" />
+    <state x="327" y="297" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602658773419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="327" y="297" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1602658773419" />
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1" timestamp="1604062351577">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1604062351577" />
+    <state x="569" y="241" width="841" height="534" key="find.popup" timestamp="1606437972190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="569" y="241" width="841" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606437972190" />
+    <state x="135" y="166" width="1180" height="592" key="new project wizard" timestamp="1602239112830">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="135" y="166" width="1180" height="592" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1602239112830" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1602669389740">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1602669389740" />
+    <state x="429" y="244" width="672" height="676" key="search.everywhere.popup" timestamp="1606437205034">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="429" y="244" width="672" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606437205034" />
+    <state x="350" y="95" key="spring file set editor" timestamp="1602594037348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="350" y="95" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1602594037348" />
+    <state x="575" y="316" key="svn.upgradeDialog" timestamp="1603871290035">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="575" y="316" key="svn.upgradeDialog/0.0.1536.824@0.0.1536.824" timestamp="1603871290035" />
+    <state x="463" y="278" key="svn4idea.checkout.options" timestamp="1603871287459">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="278" key="svn4idea.checkout.options/0.0.1536.824@0.0.1536.824" timestamp="1603871287459" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../ultra-iga-res/src/main/java/com/ultrapower/iga/resource/rest/AppResMappingRest.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ultra-iga-res/src/main/java/com/ultrapower/iga/resource/rest/ResAccountRest.java</url>
+          <line>2256</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../ultra-iga-res/src/main/java/com/ultrapower/iga/resource/service/impl/ResAccountServiceImpl.java</url>
+          <line>2379</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Ultra-IGA-SynSubAccount/src/main/java/com/ultrapower/iga/synsubaccount/service/impl/SynSubAccountServiceImpl.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../Ultra_IGA_User/src/main/java/com/ultrapower/iga/user/service/impl/UserServiceImpl.java</url>
+          <line>919</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="resAccountModel.getResNum()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
