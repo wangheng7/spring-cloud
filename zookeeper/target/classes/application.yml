@@ -1,0 +1,9 @@
+server:
+  port: 8088
+
+spring:
+  application:
+    name: provide-name
+  cloud:
+    zookeeper:
+      connect-string: localhost：2181
