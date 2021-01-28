@@ -20,7 +20,7 @@ public class PaymentService {
     }
 
     @HystrixCommand(fallbackMethod = "paymentTimeoutHandler",commandProperties = {
-            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="3000")
+            @HystrixProperty(name="execution.isolation.thread.timeoutInMilliseconds",value="5000")
     })
     public String paymentTimeout(String id){
 //        int timeNum = 5;
