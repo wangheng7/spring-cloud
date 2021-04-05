@@ -9,7 +9,8 @@ package com.thread.test3;
  */
 public class WaitNotifyDemo {
     public static void main(String[] args){
-        Add1Del1 ad = new Add1Del1();
+//        Add1Del1 ad = new Add1Del1();
+        AddDelLock ad = new AddDelLock();
 
         new Thread(new Runnable() {
             @Override
