@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.springaop.dao.LogMapper" >
+
+    <resultMap id="BaseResultMap" type="com.springaop.entity.Log" >
+        <id column="id" property="id" jdbcType="VARCHAR" />
+        <result column="opera_name" property="operaName" jdbcType="VARCHAR" />
+        <result column="module_name" property="moduleName" jdbcType="VARCHAR" />
+        <result column="modify_before" property="modifyBefore" jdbcType="VARCHAR" />
+        <result column="modify_after" property="modifyAfter" jdbcType="VARCHAR" />
+    </resultMap>
+
+
+    <insert id="addLog" parameterType="com.springaop.entity.Log" >
+        insert into Log (id, opera_name, module_name, modify_before, modify_after)
+        values (#{id,jdbcType=VARCHAR}, #{opera_name,jdbcType=VARCHAR},
+        #{module_name,jdbcType=VARCHAR}, #{modify_before,jdbcType=VARCHAR},#{modify_after,jdbcType=VARCHAR})
+    </insert>
+
+
+</mapper>
